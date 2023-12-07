@@ -6,6 +6,7 @@
 
 ## Project Overview
 The Planetary Model Project is a hands-on simulation exploring pivoted transformations, scene nodes, and hierarchical structures without utilizing Unity's default shaders. Try out my Planetary Model graphics program by running the EXE file!
+<img width="1171" alt="image" src="https://github.com/alan-lai1738/planetary_model/assets/70036749/2306f726-35ef-490e-8522-d6d3acdb7f4b">
 
 ### Objective
 This project aims to demonstrate a comprehensive understanding of scene manipulation and hierarchy in a graphical environment.
