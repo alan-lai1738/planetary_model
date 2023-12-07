@@ -13,24 +13,24 @@ This project aims to demonstrate a comprehensive understanding of scene manipula
 
 ### Features and Implementation
 1. **Scene Hierarchy**: 
-   - Construct a detailed scene hierarchy with at least four node generations and two sibling nodes at one level.
+   - A detailed scene hierarchy with at least four node generations and two sibling nodes at one level.
    - Ensure each node connects to primitives from adjacent generations.
    - Include intuitive controls for node selection and transformation.
 
 2. **Reusable Hierarchy**:
-   - Implement a reusable hierarchy system by duplicating and integrating a subpart of the hierarchy.
+   - A reusable hierarchy system by duplicating and integrating a subpart of the hierarchy.
 
 3. **AxisFrame Visualization**:
-   - Develop a feature to display an axis frame at the pivot of the selected node, following the node's orientation.
+   - A feature to display an axis frame at the pivot of the selected node, following the node's orientation.
 
 4. **Implementation Guidelines**:
-   - Utilize the 451Shader for all primitives, managing model transformations explicitly.
+   - Utilize the customer shader for all primitives, managing model transformations explicitly.
 
 5. **Pivoted Primitive Transform**:
-   - Create continuous rotation for various primitives (sphere, cube, capsule) at different levels within the hierarchy.
+   - Created a continuous rotation for various primitives (sphere, cube, capsule) at different levels within the hierarchy.
 
 6. **Reset Functionality**:
-   - Integrate a reset feature to revert the scene to its initial configuration.
+   - Integrated a reset feature to revert the scene to its initial configuration.
 
 ### Development Tips
 - Design for a 1920x1080 resolution, ensuring the application is windowed and resizable.
