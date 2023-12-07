@@ -5,7 +5,7 @@
 - **Execution**: Launch the program by opening the EXE file.
 
 ## Project Overview
-The Planetary Model Project is a hands-on simulation exploring pivoted transformations, scene nodes, and hierarchical structures without utilizing Unity's default shaders.
+The Planetary Model Project is a hands-on simulation exploring pivoted transformations, scene nodes, and hierarchical structures without utilizing Unity's default shaders. Try out my Planetary Model graphics program by running the EXE file!
 
 ### Objective
 This project aims to demonstrate a comprehensive understanding of scene manipulation and hierarchy in a graphical environment.
