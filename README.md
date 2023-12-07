@@ -1,55 +1,58 @@
-# GitHub Repository: Planetary Model Simulation (Sun to Mars)
+# Planetary Model Project: Simulation from Sun to Mars
 
-## Instructions for Running the Program
-- **Download Method**: Download the ZIP file or clone the repository.
-- **Execution**: Open the EXE file after extraction.
+## Running the Program
+- **Download**: Clone the repository or download the ZIP file.
+- **Execution**: Launch the program by opening the EXE file.
 
-## Assignment MP5: Scene Hierarchy and Graph Analysis
-**Submission Deadline**: Refer to the course website.
+## Project Overview
+The Planetary Model Project is a hands-on simulation exploring pivoted transformations, scene nodes, and hierarchical structures without utilizing Unity's default shaders.
 
-### Purpose
-To enhance understanding of pivoted transformations, scene nodes, and hierarchy.
+### Objective
+This project aims to demonstrate a comprehensive understanding of scene manipulation and hierarchy in a graphical environment.
 
-### Methodology
-Develop an application for scene manipulation, focusing on node selection and hierarchy adjustment.
-
-### Assignment Requirements
+### Features and Implementation
 1. **Scene Hierarchy**: 
-   - Construct a scene hierarchy with a minimum of four generations (e.g., Torso, UpperArm, Arm, Hand) and at least two siblings in one generation.
-   - Each node should be connected to primitives from both previous and subsequent generations, including at least one sphere at joint locations.
-   - User-friendly selection and transformation of scene nodes.
-   - Intuitive hierarchy behavior.
+   - Construct a detailed scene hierarchy with at least four node generations and two sibling nodes at one level.
+   - Ensure each node connects to primitives from adjacent generations.
+   - Include intuitive controls for node selection and transformation.
 
-2. **Hierarchy Reusability**:
-   - Demonstrate reusability by duplicating and parenting a sub-part of the hierarchy.
+2. **Reusable Hierarchy**:
+   - Implement a reusable hierarchy system by duplicating and integrating a subpart of the hierarchy.
 
-3. **AxisFrame Feature**:
-   - Feature to display an axis frame at the pivot of the selected node.
+3. **AxisFrame Visualization**:
+   - Develop a feature to display an axis frame at the pivot of the selected node, following the node's orientation.
 
-4. **Implementation Constraints**:
-   - Use the 451Shader for all primitives. Avoid default Unity shaders and specific Unity matrices.
+4. **Implementation Guidelines**:
+   - Utilize the 451Shader for all primitives, managing model transformations explicitly.
 
 5. **Pivoted Primitive Transform**:
-   - Continuous rotation for different primitives (sphere, cube, capsule) at various hierarchy levels.
+   - Create continuous rotation for various primitives (sphere, cube, capsule) at different levels within the hierarchy.
 
 6. **Reset Functionality**:
-   - A reset button to revert the scene to its initial state.
+   - Integrate a reset feature to revert the scene to its initial configuration.
 
-### Additional Tips
-- Target a resolution of 1920x1080, with windowed and resizable settings.
-- Focus more on hierarchy development than UI.
-- Regular backups recommended.
+### Development Tips
+- Design for a 1920x1080 resolution, ensuring the application is windowed and resizable.
+- Focus on the hierarchy aspect more than the UI design.
+- Regular project backups are advised.
 
-### Evaluation Criteria
-Assessment based on:
-1. Scene Hierarchy
-2. Reusable Hierarchy Implementation
-3. Pivoted Primitive Transform and Animation
-4. Reset Functionality
-5. Submission Guidelines Adherence
+### Project Evaluation
+Your project will be assessed on the following aspects:
+1. Depth and complexity of the Scene Hierarchy.
+2. Implementation of the Reusable Hierarchy.
+3. Innovation in Pivoted Primitive Transform and Animation.
+4. Functionality of the Reset Feature.
+5. Adherence to the specified Implementation Guidelines.
 
-### Final Grade Contribution
-This assignment contributes 11% to the final grade.
+### Additional Information
+This project is a personal interpretation of an academic assignment, modified and extended to fit a standalone project format.
+
+### Note
+Be mindful of Unity's Frustum culling, especially given the modifications to the vertex shader transform.
+
+
+
+
 
 ### Note
 Be aware of Unity Frustum culling due to customized vertex shader transform.
