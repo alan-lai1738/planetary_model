@@ -51,9 +51,4 @@ This project is a personal interpretation of an academic assignment, modified an
 ### Note
 Be mindful of Unity's Frustum culling, especially given the modifications to the vertex shader transform.
 
-
-
-
-
-### Note
-Be aware of Unity Frustum culling due to customized vertex shader transform.
+\
